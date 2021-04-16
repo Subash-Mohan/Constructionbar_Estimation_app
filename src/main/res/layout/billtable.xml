@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/b_barname"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:text="Barname"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+
+            android:fontFamily="@font/cabin_semibold"
+            android:textColor="#1C1A19"
+            />
+        <ImageView
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_width="1dp" />
+        <TextView
+            android:id="@+id/b_quantity"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:textColor="#1C1A19"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/cabin_semibold"
+            android:text="Quantity"/>
+        <ImageView
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_width="1dp"/>
+        <TextView
+            android:id="@+id/b_amount"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:textColor="#1C1A19"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/cabin_semibold"
+            android:text="Rate/kg"/>
+        <ImageView
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_width="1dp"/>
+        <TextView
+            android:id="@+id/b_tamount"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:textColor="#1C1A19"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/cabin_semibold"
+            android:textSize="18dp"
+            android:text="Amount"/>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#444">
+    </TableRow>
+</LinearLayout>
